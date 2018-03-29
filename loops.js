@@ -11,7 +11,7 @@ function whileLoop(n){
   while (n > -1 ){
     console.log(n);
     --n;
-    if (n < -1 ){
+    if (n === -1 ){
       console.log("done")
     }
   }
